@@ -1,0 +1,190 @@
+
+#photo-id {float:right;
+margin:0px
+		
+}
+
+table {
+width: 50%;
+}
+td, th {
+width: 30%;
+}
+.citation {
+	  text-align: center;
+	  font-style: italic;
+}
+
+Header{
+         
+		  background-color: #33FFCC;
+		  margin: 20px 0px 20px 0px;
+		  text-align: center;                    
+		  font-size: 36px;
+		  color: solid white;
+		  }
+		 
+footer{   background-color : #33FFCC;
+	      padding: 1%; 
+          margin: 20px 10px 20px 10px;
+		  text-align: center;
+		  
+		  }
+		 		  
+nav{
+	      background-color: #33FF99;
+		  margin: 10px 50px 10px 50px;
+		  font-size: 24px;
+		  color: solid white;
+          }
+		
+section{  
+          margin : 30px 20px 30px 20px;	
+		  font-size: 24px;
+		  
+          }
+		  
+.VIF{
+	text-decoration:underline;
+	text-align: center;
+	color: #66CC00;
+	font-style: italic;
+	font-weight: bold;
+	Font-size: 24px;
+}
+
+
+.LIF{     text-decoration:underline;
+	     text-align: center;
+		 color: #66CC00;
+         font-style: italic;
+		 font-weight: bold;
+		 Font-size: 24px;
+}
+
+.centrer{
+	     text-align: center;
+}
+
+.Fond{
+	background-color: #000000;
+}
+
+body{
+	text-align: center;
+	color: white;
+	margin:0;
+	padding:0;
+	background: url(Fond/vert.jpg);
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	-webkit-background-size: back; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+	background-size: cover; /* version standardisée */
+	}
+
+.d{ 
+	text-align: center;
+	font-weight: bold;
+	color: #444444f5;
+	text-decoration: bold;
+ }
+
+.g{ 
+	color: black;
+	background-color: #CECECE;
+ }
+
+
+aside{
+	      
+	background-color: rgb(16, 138, 138);
+	margin: 10px 10px 200px 10px;
+	width: 20%;
+	float: right;		  
+	}
+	h1{font-size:3em;
+	   font-style: italic;
+	   color:grey ;
+	   text-decoration: underline;	}
+
+
+
+P1{font-style: italic;
+	   text-align: left;
+	   color: grey;}
+
+h2{text-align: left;
+		  color: #66CC00;
+		  font-style: italic;
+		text-decoration: underline;	
+		font-family: 'Times New Roman', Times, serif;}
+
+.Info{text-align: left;
+	background-color: #7e8581;
+	margin: 20px 1500px 20px 100px;}
+
+li{text-align: left;
+ margin: 0px 0px 0px 40px;}
+ 
+ #theme_orange{
+  width: 10px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  background: orange ;
+  margin: 0px 90px 0px 90px;
+}
+
+ #theme_bleu{
+  width: 10px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  background: blue ;
+  margin: -21px 50px -21px 50px;
+}
+
+#theme_rouge{
+	font-size:100% ;
+	width: 10px;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	background: rgb(2, 117, 50) ;
+	margin: 0px 10px 0px 10px;
+  }
+
+#inscription{
+	display: none;
+}
+
+#connexion {
+	display: none;
+}
+
+.ligne {
+	display:inline;
+	margin: 15px;  
+}
+#lecteur_video{
+	margin: 31px -376px 29px 0px;
+	height:200px;
+	width :160px;
+	float: right;
+}
+.input_control{
+	width: 26px;
+	height: 26px;
+	margin: 4px;
+}
+.input_control:hover{
+	width: 30px;
+	height: 30px;
+	margin: 0px; }
+
+#video {
+	border:1px solid black;
+	background-color: black;
+    height: 279px;
+	width: 156px;
+}
