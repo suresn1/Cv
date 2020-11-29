@@ -16,33 +16,30 @@ width: 30%;
 }
 
 Header{
-         
-		  background-color: #33FFCC;
-		  margin: 20px 0px 20px 0px;
-		  text-align: center;                    
-		  font-size: 36px;
-		  color: solid white;
-		  }
+    background-color: #33FFCC;
+	margin: 20px 0px 20px 0px;
+	text-align: center;                    
+	font-size: 36px;
+	color: solid white;
+	border: 10px solid #006400;}
 		 
-footer{   background-color : #33FFCC;
-	      padding: 1%; 
-          margin: 20px 10px 20px 10px;
-		  text-align: center;
-		  
-		  }
+footer{   
+	background-color : #33FF99;
+	padding: 1%; 
+    margin: 20px 10px 20px 10px;
+	text-align: center;
+	border: 10px solid #006400;}
 		 		  
 nav{
-	      background-color: #33FF99;
-		  margin: 10px 50px 10px 50px;
-		  font-size: 24px;
-		  color: solid white;
-          }
+	background-color: #33FF99;
+	margin: 10px 50px 10px 50px;
+	font-size: 24px;
+	color: solid white;
+	border: 10px solid #006400}
 		
 section{  
-          margin : 30px 20px 30px 20px;	
-		  font-size: 24px;
-		  
-          }
+    margin : 30px 20px 30px 20px;	
+	font-size: 24px;}
 		  
 .VIF{
 	text-decoration:underline;
@@ -60,14 +57,6 @@ section{
          font-style: italic;
 		 font-weight: bold;
 		 Font-size: 24px;
-}
-
-.centrer{
-	     text-align: center;
-}
-
-.Fond{
-	background-color: #000000;
 }
 
 body{
@@ -98,74 +87,79 @@ body{
  }
 
 
-aside{
-	      
-	background-color: rgb(16, 138, 138);
+aside{  
+	background-color: #108A53;
+	border: 2px solid #006400;
 	margin: 10px 10px 200px 10px;
 	width: 20%;
 	float: right;		  
 	}
-	h1{font-size:3em;
-	   font-style: italic;
-	   color:grey ;
-	   text-decoration: underline;	}
+
+h1{
+	font-size:3em;
+	font-style: italic;
+	color:white ;
+	text-decoration: underline;	}
 
 
+h2{ 
+	text-align: left;
+	color: #66CC00;
+	font-style: italic;
+	text-decoration: underline;	
+	font-family: 'Times New Roman', Times, serif;}
 
-P1{font-style: italic;
-	   text-align: left;
-	   color: grey;}
-
-h2{text-align: left;
-		  color: #66CC00;
-		  font-style: italic;
-		text-decoration: underline;	
-		font-family: 'Times New Roman', Times, serif;}
-
-.Info{text-align: left;
-	background-color: #7e8581;
-	margin: 20px 1500px 20px 100px;}
+.Info{
+	text-align: left;
+	background-color:#108A53;
+	margin: 20px 1500px 20px 100px;
+	border: 2px solid #006400;}
 
 li{text-align: left;
  margin: 0px 0px 0px 40px;}
  
  #theme_orange{
-  width: 10px;
+  float: left;
+  height:5px;
+  width: 5px;
   padding: 10px;
-  border: 1px solid #ffffff;
+  border: 3px solid #730800;
   background: orange ;
-  margin: 0px 90px 0px 90px;
+  margin: -9px 90px -85px 100px;
 }
 
  #theme_bleu{
-  width: 10px;
+  float: left;
+  height:5px;
+  width: 5px;
   padding: 10px;
-  border: 1px solid #ffffff;
+  border: 3px solid #1A1920;
   background: blue ;
-  margin: -21px 50px -21px 50px;
+  margin: -9px 50px -21px 50px;
 }
 
 #theme_rouge{
+	float: left;
+	height:5px;
 	font-size:100% ;
-	width: 10px;
+	width: 5px;
 	padding: 10px;
-	border: 1px solid #ffffff;
+	border: 3px solid#006400;
 	background: rgb(2, 117, 50) ;
-	margin: 0px 10px 0px 10px;
-  }
+	margin: -9px 20px 3px -131px;}
 
 #inscription{
-	display: none;
-}
+	display: none;}
+
 
 #connexion {
-	display: none;
-}
+	display: none;}
+
 
 .ligne {
 	display:inline;
-	margin: 15px;  
-}
+	
+	margin: 15px;}
 #lecteur_video{
 	margin: 31px -376px 29px 0px;
 	height:200px;
@@ -187,4 +181,17 @@ li{text-align: left;
 	background-color: black;
     height: 279px;
 	width: 156px;
+}
+
+#nav_mon_cv{
+	cursor: pointer;
+}
+#nav_mon_site{
+	cursor: pointer;
+}
+#nav_inscription{
+	cursor: pointer;
+}
+#nav_connexion{
+	cursor: pointer;
 }
