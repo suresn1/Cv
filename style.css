@@ -149,9 +149,8 @@ li{text-align: left;
 	margin: -9px 20px 3px -131px;}
 
 #inscription{
-	display: none;}
-
-
+	display: none;
+}
 #connexion {
 	display: none;}
 
@@ -194,4 +193,27 @@ li{text-align: left;
 }
 #nav_connexion{
 	cursor: pointer;
+}
+
+#mon_cv{
+	display: block;
+}
+
+#inscription{
+	display: none;
+}
+
+#connexion 	{
+	display: none;
+}
+#formulaire {
+    padding-right: 45%;
+    padding-left: 43%;
+    margin-left: 3%;
+    text-align: left;
+}
+
+#ziak {
+    padding-right: 45%;
+    padding-left: 45%;
 }

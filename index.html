@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
    <head>
          <meta charset="utf-8" />
@@ -9,17 +9,17 @@
    </head>
    
    <body id="monbody">
-       <div id="mon_cv">
          <header id="mon_header">Mes Dévs!Web en SNIR</header>
 		 <nav id="ma_nav">
             <ul>
                 <li id="nav_mon_cv" class="ligne">MON CV</a></li>
                 <li id="nav_mon_site" class="ligne">site</a></li>
-                <li id="nav_inscription" class="ligne">Inscription</a></li>
-                <li id="nav_connexion" class="ligne">Connexion</a></li>
+                <li id="nav_inscription" class="ligne" href="">Inscription</a></li>
+                <li id="nav_connexion" class="ligne" href="">Connexion</a></li>
                </ul>
 
          </nav>
+         <div id="mon_cv">
          <h1 id="h1">Curriculum vitæ</h1>
 		 <aside id="mon_aside">Mes sites de dev:<br><a>https://code.visualstudio.com/</a><br><a>https://notepad-plus-plus.org/ </aside>
          <p class="Info" id="Info">SURESHKUMAR NETHUSAN<br>4 allée des dahlias Bondy 93140<br>N°de téléphone:07 82 35 52 28<br>Email:snethusan@gmail.com</p>
@@ -112,11 +112,42 @@
 
         <div id="inscription">
         <h1>Formulaire d'inscription</h1>
+        <div id="formulaire">
+            <form id="form_inscription" action="rest.php" method="post">
+                <label for="nom">Nom : </label>
+                <input type="text" id="nom" name="nom_utilisateur">
+                <label for="prenom">Prénom : </label>
+                <input type="text" id="prenom" name="prenom_utilisateur">
+                <label for="adresse_mail">Adresse mail : </label>
+                <input type="email" id="adresse_mail" name="adresse_mail_utilisateur">
+                <label for="naissance">Date de naissance : </label>
+                <input type="date" id="naissance" name="naissance_utilisateur">
+                <label for="pseudo">Pseudo : </label>
+                <input type="text" id="pseudo" name="pseudo_utilisateur">
+                <label for="mdp">Mot de passe : </label>
+                <input type="password" id="mdp" name="mdp_utilisateur" required>
+                <p> <span id="mdp_longueur" class="rouge">8 caractères</span> avec au moins : <span id="mdp_majuscule" class="rouge">1 majuscule</span>, <span id="mdp_minuscule" class="rouge">1 minuscule</span>, <span id="mdp_chiffre" class="rouge">1 Chiffre</span>, <span id="mdp_speciaux" class="rouge">1 Caractère spécial</span>.</p>
+                <label for="mdp2">Ressaisir le mot de passe : </label>
+                <input type="password" id="mdp2" name="mdp2_utilisateur" required>
+                <input type="submit" id="bouton_inscription" class="bleu" value="M'inscrire" name="inscription">
+            </form>
+          </div>
+          </div>
         </div>
 
 
         <div id="connexion">
         <h1>Formulaire de connexion</h1>
+        <div id="ziak">
+            <form action="rest.php" method="get" id="form_connexion">
+            <label for="pseudo">Pseudo : </label>
+            <input type="text" id="pseudo" name="pseudo_utilisateur">
+            <label for="mdp">Mot de passe : </label>
+            <input type="password" id="mdp" name="mdp_utilisateur">
+            <input type="submit" id="bouton_connexion" class="bleu" name="coucou" value="Se connecter">
+            </form>
+            <p>Vous n'avez pas d'identifiant ? Remplissez alors notre formulaire d'<a id="ins" class="sourisMain">inscription.</a></p>
+        </div>
         </div>
    </body>
   

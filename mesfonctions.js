@@ -111,12 +111,21 @@ document.getElementById("nav_connexion").addEventListener("click",changerSection
 function changerSection (){
    if (this.id == "nav_mon_cv"){
     console.debug("mon casier judiciaire ? y'a rien wesh");
+    inscription.style.display ="none";
+    mon_cv.style.display ="block";
+    connexion.style.display ="none";
   }
   else if (this.id =="nav_inscription"){
     console.debug("tu veux t'inscrire ?okay ma gueule");
+    inscription.style.display ="block";
+    mon_cv.style.display ="none";
+    connexion.style.display ="none";
   }
   else if (this.id =="nav_connexion"){
     console.debug("tu veux te connecter ?okay bg");
+    inscription.style.display ="none";
+    mon_cv.style.display ="none";
+    connexion.style.display ="block";
   }
 
 }
